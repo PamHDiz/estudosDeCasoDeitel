@@ -15,7 +15,7 @@ public class DeckDeCartas {
 		String[] naipes = {"Copas", "Ouros", "Paus", "Espadas"};
 		
 		deck = new Cartas[NUMERO_DE_CARTAS]; // cria array de objetos Card
-		proximaCarta = 0; // primeira carta distribuida será o deck[0]
+		proximaCarta = 0; // primeira carta distribuida será  deck[0]
 		
 		for(int contador = 0; contador < deck.length; contador++) {
 			deck[contador] = new Cartas(valorCarta[contador % 13], naipes[contador / 13]);

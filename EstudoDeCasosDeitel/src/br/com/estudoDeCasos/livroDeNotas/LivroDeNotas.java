@@ -16,7 +16,22 @@ public class LivroDeNotas {
 	
 	//realiza várias operações com as notas
 	public void processadorDeNotas() {
+			
+		//outPutGrades(); // gera a saída do Array de Notas
+	}
+	
+	public int getMenorNota() {
 		
+		int menorNota = notas[0];
+		
+		//faz um loop pelo array de notas
+		for(int nota : notas) {
+			//se a nota for a mais baixa que menorNota, atribui esse valor a menorNota
+			if(nota < menorNota) {
+				menorNota = nota; // nova nota mais baixa
+			}
+		}
+		return menorNota;
 	}
 	
 }

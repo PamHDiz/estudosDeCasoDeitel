@@ -10,7 +10,7 @@ public class Teste {
 		for(int i = 1; i <= 52; i++) {
 			System.out.printf("%-19s", meuDeck.distribuidorDeCartas());
 			
-			if(i % 4 == 0) { // gera uma nova linha após a quarta carta
+			if(i % 4 == 0) { // gera uma nova linha após  quarta carta
 				System.out.println();
 			}
 		}
