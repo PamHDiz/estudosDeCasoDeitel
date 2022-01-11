@@ -1,4 +1,4 @@
-package br.com.estudoDeCasos.capituloSete;
+package br.com.estudoDeCasos.jogoDePoker;
 
 import java.security.SecureRandom;
 
