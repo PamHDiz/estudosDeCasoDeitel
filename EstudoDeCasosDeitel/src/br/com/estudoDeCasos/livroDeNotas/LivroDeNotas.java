@@ -34,4 +34,18 @@ public class LivroDeNotas {
 		return menorNota;
 	}
 	
+	public int getMaiorNota() {
+		
+		int maiorNota = notas[0];
+		
+		for(int nota : notas) {
+			if(nota < maiorNota) {
+				maiorNota = nota;
+			}
+		}
+		return maiorNota;
+	}
+	
+	
+	
 }
